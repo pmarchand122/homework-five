@@ -1,0 +1,128 @@
+.nav nav {
+  max-width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px;
+  font-family: gill;
+}
+.nav nav .logo {
+  width: 80px;
+  height: 20px;
+  align-self: center;
+  display: flex;
+  color: black;
+  font-family: Gill;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.nav nav .logo a {
+  text-decoration: none;
+  color: black;
+}
+.nav nav .links {
+  width: 350px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  font-family: Gill;
+  font-size: 15px;
+}
+.nav nav .links a {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+.nav nav .links a:last-child {
+  border-right: none;
+}
+
+.about {
+  max-width: 980px;
+  margin: 80px auto;
+}
+.about .top .large-top {
+  font-family: Thin;
+  font-size: 60px;
+  padding-left: 5px;
+  padding-top: 20px;
+  width: 234px;
+}
+.about .top .large-top .top-border {
+  border-top: 2px solid black;
+  max-width: 130px;
+  height: 20px;
+  margin-top: -20px;
+}
+.about .top .small-top {
+  font-family: Gill;
+  font-size: 16px;
+  padding-top: 12px;
+}
+.about .bottom {
+  margin-top: 95px;
+}
+.about .bottom .large-bottom {
+  max-width: 345px;
+  font-family: Thin;
+  font-size: 40px;
+  padding-left: 5px;
+}
+.about .bottom .large-bottom .bottom-border {
+  border-top: 2px solid black;
+  max-width: 220px;
+  height: 20px;
+  margin-top: -20px;
+}
+.about .bottom .client {
+  max-width: 722px;
+  min-height: 150px;
+  display: flex;
+  margin-bottom: 38px;
+  font-family: Gill;
+  font-size: 16px;
+}
+.about .bottom .client .client-image {
+  width: 360px;
+  height: 150px;
+}
+.about .bottom .client .client-image img {
+  height: 100%;
+}
+.about .bottom .client .client1 {
+  background-image: url(../images/about-client-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about .bottom .client .client2 {
+  background-image: url(../images/about-client-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about .bottom .client .client-quote {
+  position: relative;
+  padding-left: 21px;
+  min-height: 50px;
+  width: 100%;
+}
+.about .bottom .client .client-quote p:last-of-type {
+  margin-bottom: 50px;
+}
+.about .bottom .client .client-quote .client-name {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-family: Thin;
+  color: #79addc;
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    padding: 10px;
+  }
+}
